@@ -1,0 +1,8 @@
+{
+  "username": "Using fixtures to represent data",
+  "password": "hello@cypress.io",
+  "searchkey": "iphone",
+  "env" :"QA",
+  "expectedText":"Today's Deals",
+  "SecondSiteUrl":"https://www.aws.training/certification"
+}
