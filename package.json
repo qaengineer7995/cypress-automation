@@ -1,0 +1,21 @@
+{
+  "name": "cypress-automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "cypress.config.js",
+  "dependencies": {
+    "cypress": "^13.2.0",
+    "cypress-iframe": "^1.0.1",
+    "cypress-mochawesome-reporter": "^3.6.0",
+    "selenium-webdriver": "^4.13.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run:tests":"npx cypress run",
+    "run:chrome":"npx cypress run --browser chrome",
+    "run:headed":"npx cypress run --browser chrome --headed"
+  },
+  "author": "",
+  "license": "ISC"
+}
